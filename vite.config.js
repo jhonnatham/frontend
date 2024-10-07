@@ -6,7 +6,7 @@ import { config } from 'dotenv';
 export default defineConfig({
   plugins: [react()],
   server: {
-    port: 3000,
+    port: 10000,
     host: true,
     watch: {
        usePolling: true,
